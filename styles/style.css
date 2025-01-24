@@ -165,15 +165,15 @@
 }
 
 .card_type_cinema {
-  background-image: url(./../images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background-image: url(./../images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  background-image: url(./../images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card_title {
@@ -253,15 +253,14 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  
 }
 
-.text_up {
-  padding-top: 76px;
+.about_paragraph:first-of-type {
+  padding-top: 76px; /* Для первого параграфа */
 }
 
-.text_down {
-  padding-top: 25px;
+.about_paragraph {
+  padding-top: 25px; /* Для всех остальных */
 }
 
 .footer {
@@ -292,6 +291,12 @@
 
 .footer_main {
   text-decoration: none;
+}
+
+.footer_images {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .images_footer {
