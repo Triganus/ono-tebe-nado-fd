@@ -294,6 +294,8 @@
 }
 
 .footer_images {
+  display: flex;
+  gap: 48px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -302,9 +304,4 @@
 .images_footer {
   width: 48px;
   height: 48px;
-}
-
-.footer_images {
-  display: flex;
-  gap: 48px;
 }
